@@ -19,3 +19,18 @@ Name = "ALBERT CARLO P. LIM"
 Address = "#392 Anonas Bacood Sta. Mesa Manila"
 Contact = "+639527461283"
 Email = "aclim123@gmail.com"
+
+class PDF(FPDF):   
+    def header(self):
+        self.image("Picture.jpg",15, 15, 50, 0)
+        
+        self.set_font('Times', 'B', 30)
+        w = self.get_string_width(Name) + 6
+        self.set_x((255 - w) / 2)
+        self.ln(7)
+        self.cell(0, 20, f"{Name}" , align = 'R', ln=1)
+        self.set_font('Times', 'B', 15)
+        self.cell(0, 6, f"{Address}" , align = 'R', ln=1)
+        self.cell(0, 6, f"{Contact}" , align = 'R', ln=1)
+        self.cell(0, 6, f"{Email}" , align = 'R', ln=1)
+        self.ln(10)
