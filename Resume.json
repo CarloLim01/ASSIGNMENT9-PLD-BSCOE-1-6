@@ -1,0 +1,35 @@
+[
+    {
+        "Header1" : "CAREER OBJECTIVES",
+        "Objectives" : "        As a fresh graduate, I am looking for a job that will enable me to creatively showcase my talents all the while",
+        "Objectives1" : "challenging me to adapt new skills and processes needed to advance within my chosen career path. I am also",
+        "Objectives2" : "looking for a company that offers a positive atmosphere to learn and implement good attitude for the betterment",
+        "Objectives3" : "of the organization.",
+
+        "Header2" : "ACADEMIC BACKGROUND",
+        "Tertiary" : "De La Salle University Manila                                                                    ", 
+        "Tertiary Address" : "2401 Taft Ave, Malate, Manila                                                                      ",
+        "Tertiary Year" : "(2007-2012)                                                                                                    ",
+        "Secondary" : "Xavier School                                                                                                ", 
+        "Secondary Address" : "64 Xavier, San Juan, Metro Manila                                                                ",
+        "Secondary Year" : "(2003-2007)                                                                                                    ",
+        "Primary" : "Regina Apostolorum Academy                                                                   ", 
+        "Primary Address" : "4700 Valenzuela, Santa Mesa, Manila                                                           ",
+        "Primary Year" : "(1997-2003)                                                                                                    ",   
+        
+        "Header3" : "SKILLS",
+        "Skill1" : "Oral and written communication skills",
+        "Skill2" : "Computer skills", 
+        "Skill3" : "Multitasking",
+        "Skill4" : "Learning/adaptability skills",
+        "Skill5" : "Creative",
+
+        "Header4": "ACHIEVEMENTS",
+        "Achievement1" : "Organized College Event in DLSU (2010-2012)", 
+        "Achievement2" : "Dean's List, De La Salle University Manila", 
+        "Achievement3" : "Vice President of Computer Engineering Department(2010-2012)",
+        "Achievement4" : "Participated in different seminars/webinars in my Xavier School and DLSU",
+        "Achievement5" : "Won Most Outstanding Award by Regina Aposstolorum Academy"
+
+    }
+]
