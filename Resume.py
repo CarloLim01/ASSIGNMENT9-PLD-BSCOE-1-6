@@ -25,6 +25,7 @@ class PDF(FPDF):
         self.image("Picture.jpg",15, 15, 50, 0)
         
         self.set_font('Times', 'B', 30)
+        self.set_text_color(25, 25, 112)
         w = self.get_string_width(Name) + 6
         self.set_x((255 - w) / 2)
         self.ln(7)
@@ -82,3 +83,15 @@ for information in info:
     pdf.cell(0, 5, f"{information['Primary Address']}", align='R', ln=1)
     pdf.cell(0, 5, f"{information['Primary Year']}", align='R', ln=1)
     pdf.ln(5)
+
+    pdf.set_font('Times', 'BI', 18)
+    pdf.cell(0, 10, f"{information['Header3']}", 'BI', ln=1)
+    pdf.ln(3)
+    pdf.set_font('Times', '', 14)
+    pdf.cell(0, 5, f"{information['Skill1']}", align='L', ln=1)
+    pdf.cell(0, 5, f"{information['Skill2']}", align='L', ln=1)
+    pdf.cell(0, 5, f"{information['Skill3']}", align='L', ln=1)
+    pdf.cell(0, 5, f"{information['Skill4']}", align='L', ln=1)
+    pdf.cell(0, 5, f"{information['Skill5']}", align='L', ln=1)
+    pdf.ln(5)
+
