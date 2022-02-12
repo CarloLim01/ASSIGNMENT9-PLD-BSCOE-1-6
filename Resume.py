@@ -95,3 +95,13 @@ for information in info:
     pdf.cell(0, 5, f"{information['Skill5']}", align='L', ln=1)
     pdf.ln(5)
 
+    pdf.set_font('Times', 'BI', 18)
+    pdf.cell(0, 10, f"{information['Header4']}", 'BI', ln=1)
+    pdf.ln(3)
+    pdf.set_font('Times', '', 12)
+    pdf.cell(0, 5, f"{information['Achievement1']}", align='L', ln=1)
+    pdf.cell(0, 5, f"{information['Achievement2']}", align='L', ln=1)
+    pdf.cell(0, 5, f"{information['Achievement3']}", align='L', ln=1)
+    pdf.cell(0, 5, f"{information['Achievement4']}", align='L', ln=1)
+    pdf.cell(0, 5, f"{information['Achievement5']}", align='L', ln=1)
+    pdf.ln(5)
