@@ -34,3 +34,11 @@ class PDF(FPDF):
         self.cell(0, 6, f"{Contact}" , align = 'R', ln=1)
         self.cell(0, 6, f"{Email}" , align = 'R', ln=1)
         self.ln(10)
+
+pdf = PDF('P', 'mm', "A4")
+
+pdf.add_page()
+
+fh = open('Resume.json', 'r') 
+jh = fh.read()
+info = json.loads(jh)
