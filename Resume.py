@@ -14,3 +14,8 @@
 from tokenize import Name
 from fpdf import FPDF
 import json
+
+Name = "ALBERT CARLO P. LIM"
+Address = "#392 Anonas Bacood Sta. Mesa Manila"
+Contact = "+639527461283"
+Email = "aclim123@gmail.com"
