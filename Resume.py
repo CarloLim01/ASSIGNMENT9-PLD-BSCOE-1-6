@@ -42,3 +42,16 @@ pdf.add_page()
 fh = open('Resume.json', 'r') 
 jh = fh.read()
 info = json.loads(jh)
+
+for information in info:
+    pdf.ln(5)
+    pdf.set_font('Times', 'BI', 18)
+    pdf.cell(0, 10, f"{information['Header1']}", 'BI', ln=1)
+    pdf.ln(3)
+    pdf.set_font('Times', '', 12)
+    pdf.cell(0, 5, f"{information['Objectives']}", align='L', ln=1)
+    pdf.cell(0, 5, f"{information['Objectives1']}", align='L', ln=1)
+    pdf.cell(0, 5, f"{information['Objectives2']}", align='L', ln=1)
+    pdf.cell(0, 5, f"{information['Objectives3']}", align='L', ln=1)
+    pdf.ln(5)
+
